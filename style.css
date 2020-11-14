@@ -1,0 +1,92 @@
+.container {
+    background-image: url('cat.gif');
+    background-position-x: 150px;
+    background-position-y: 16px;
+
+    background-size: 70%;
+    background-repeat: no-repeat;
+    width:500px;
+    height:500px;
+    margin: auto;
+    border: solid black 1px; 
+    text-align: center;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+;}
+
+.nameStyle {
+    color:rgb(0, 174, 255);
+}
+
+#name {
+    width: 80px;
+    color: blue;
+}
+
+#cat {
+    width: 10%;
+}
+
+body {
+    background-color: black;
+    font-family: "Segoe UI Black";
+}
+
+.flex {
+    display:flex;
+    justify-content: center;
+}
+
+button {
+    margin:15px 5px;
+}
+
+#box {
+    height: 300px;
+    overflow:auto;
+    bottom:0;
+}
+
+#btn {
+    height: 30px;
+    width: 80px;
+    color: lime;
+    font-size: 15px;
+    background-color: black;
+    border: 2px solid lime;
+    border-radius: 8px;
+    position: relative;
+    right: 50px;
+}
+
+#clear {
+    height: 25px;
+    width: 90px;
+    color: white;
+    font-size: 12px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 8px;
+    position: relative;
+    left: 47px;
+    bottom: 57px;
+}
+
+#clear:hover {
+    color: red;
+    border: 1px solid red;
+}
+
+#btn:hover {
+    color: red;
+    border: 2px solid red;
+}
+
+input {
+    height: 23px;
+    border-radius: 2px;
+    border: none;
+    font-size: 14px;
+    font-family: "Segoe UI Black";
+}
